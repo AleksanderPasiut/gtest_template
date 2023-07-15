@@ -15,6 +15,3 @@ link_directories(${PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_BINARY_DIR}/lib)
 target_link_libraries(${PROJECT_NAME} PRIVATE gtest)
 target_link_libraries(${PROJECT_NAME} PRIVATE gtest_main)
 
-target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/src/googletest/include)
-
-
