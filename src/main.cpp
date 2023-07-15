@@ -2,11 +2,9 @@
 // Author: Aleksander M. Pasiut
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-#include <iostream>
+#include <gtest/gtest.h>
 
-int main()
+TEST(Dummy, Dummy)
 {
-    std::cout << "Hello world!\n";
-
-    return 0;
+    EXPECT_TRUE(false) << "Some message here";
 }
